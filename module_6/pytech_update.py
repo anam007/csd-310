@@ -1,3 +1,11 @@
+""" 
+    Title: pytech_update.py
+    Author: Anamanno Umanah
+    Date: 02/03/2022
+    Description: Program for updating documents 
+                 in students collection 
+"""
+
 #import statement
 from pymongo import MongoClient
 
