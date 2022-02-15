@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """ 
     Title: mysql_test.py
     Author: Anamanno Umanah
@@ -46,3 +47,6 @@ finally:
     """ close the connection to MySQL """
 
     db.close()
+=======
+
+>>>>>>> 0958e36844c0debc25171205d22772d5d6e6711c
