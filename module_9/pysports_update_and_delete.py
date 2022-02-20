@@ -1,7 +1,7 @@
 """ 
     Title: pysports_update_and_delete.py
     Author: Anamanno Umanah
-    Date: 2/13/2022
+    Date: 2/18/2022
     Description:  Python program for updating, inserting and deleting records from the database
 """
 
