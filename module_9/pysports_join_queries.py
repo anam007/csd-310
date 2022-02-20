@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """ 
     Title: pysports_join_queries.py
     Author: Anamanno Umanah
@@ -55,3 +56,6 @@ finally:
     """ close the connection to MySQL """
 
     db.close()
+=======
+
+>>>>>>> b1b5f155f41fc9fb5b83763e21911b4c48e6d30e
