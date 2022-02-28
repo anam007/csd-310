@@ -110,3 +110,4 @@ INSERT INTO wishlist(user_id, book_id)
       
 INSERT INTO store(locale )
     VALUES('5026 Garden Green Road, Houston, TX 78542');
+
