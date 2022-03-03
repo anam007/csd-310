@@ -1,3 +1,8 @@
+-- Anamanno Umanah
+-- Moudule 12
+-- Whatabook init.script
+
+
 -- drop user if exist 
 DROP USER IF EXISTS 'whatabook_user'@'localhost';
 
