@@ -42,7 +42,7 @@ def show_books(_cursor):
 
     print ('\n --- DISPLAYING BOOKS ---')
     for book in books:
-        print ("  Book Name: {}\n  Author: {}\n  Details: {}\n".format(book[0], book[1], book[2]))
+        print (" Book ID: {}\n Book Name: {}\n  Author: {}\n  Details: {}\n".format(book[0], book[1], book[2], book[3] ))
 
 
 
@@ -65,7 +65,7 @@ def show_location (_cursor):
 def validate_user ():
     """validate the user id"""
 
-    user_id = int(input('Please enter user ID number'))
+    user_id = int(input('Please enter user ID number\n '))
 
     return user_id
 
@@ -118,7 +118,7 @@ def show_books_to_add (_cursor, _user_id):
 
     print ('\n--- AVAILABLE BOOKS ---')
     for book in add_books:
-        print ('  Book Id: {}\n        Book Name: {}\n'.format(book[0], book[1]))
+        print ('  Book ID: {}\n        Book Name: {}\n'.format(book[0], book[1]))
 
 
 
