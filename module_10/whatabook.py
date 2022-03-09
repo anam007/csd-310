@@ -64,11 +64,12 @@ def show_location (_cursor):
 #validate user
 def validate_user ():
     """validate the user id"""
-
-    user_id = int(input('Please enter user ID number\n '))
-
-    return user_id
-
+    try:
+        user_id = int(input('Please enter user ID number\n '))
+        return user_id
+    except ValueError:
+        print("\n  Invalid number, program terminated...\n")
+        sys.exit(0)
 
 
 
